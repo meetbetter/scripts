@@ -1,0 +1,105 @@
+{
+    "files.autoSave": "afterDelay",
+    "go.useLanguageServer": true,
+    "editor.fontSize": 14,
+    "go.formatTool": "goimports",
+    "[go]": {
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+        }
+    },
+    "gopls": {
+        // "buildFlags": ["-tags=ymtpay_bankcardcenterx ymtpay_bill"]
+    },
+"files.eol": "\n",
+"window.zoomLevel": 1,
+"go.buildTags": "ymtpay_bankcardcenterx ymtpay_walletx ymtpay_paycorex ymtpay_clearing_lianlian ymtpay_cashierx ymtpay_accountx ymtpay_bill ymtpay_remittance",
+"terminal.integrated.shell.osx": "/bin/zsh",
+"editor.fontFamily": "Meslo LG M for Powerline",
+"editor.suggestSelection": "first",
+"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+"python.jediEnabled": false ,// formatting only supports LF line endings
+"python.linting.enabled": true,
+"python.linting.pylintEnabled": true,
+"todohighlight.isEnable": false,
+"todo-tree.tree.showScanModeButton": false,
+"python.languageServer": "Microsoft",
+"shellformat.effectLanguages": [
+
+    "shellscript",
+    "dockerfile",
+    "dotenv",
+    "hosts",
+    "jvmoptions",
+    "ignore",
+    "gitignore",
+    "properties",
+    "spring-boot-properties",
+    "azcli"
+],
+"timeline.excludeSources": [],
+"go.delveConfig": {
+
+
+    "dlvLoadConfig": {
+        "followPointers": true,
+        "maxVariableRecurse": 1,
+        "maxStringLen": 64,
+        "maxArrayValues": 64,
+        "maxStructFields": -1
+    },
+    "apiVersion": 2,
+    "showGlobalVariables": true
+},
+"git.ignoreLegacyWarning": true,
+"go.alternateTools": {
+
+    
+
+},
+"go.goroot": "",
+"go.testFlags": [],
+"todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+],
+"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+"go.toolsManagement.autoUpdate": true,
+"workbench.editorAssociations": [
+    {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+    }
+],
+"leetcode.endpoint": "leetcode-cn",
+"git.path": "",
+"go.editorContextMenuCommands": {
+
+    "toggleTestFile": true,
+    "addTags": true,
+    "removeTags": false,
+    "fillStruct": false,
+    "testAtCursor": true,
+    "testFile": false,
+    "testPackage": false,
+    "generateTestForFunction": true,
+    "generateTestForFile": false,
+    "generateTestForPackage": false,
+    "addImport": true,
+    "testCoverage": true,
+    "playground": true,
+    "debugTestAtCursor": true,
+    "benchmarkAtCursor": false
+},
+"go.languageServerFlags": [
+
+],
+"gitlens.gitCommands.search.showResultsInSideBar": false
+}

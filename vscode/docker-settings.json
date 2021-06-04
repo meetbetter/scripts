@@ -1,0 +1,8 @@
+{
+    "go.autocompleteUnimportedPackages": true,
+    "go.lintTool": "golangci-lint",
+    "go.formatTool": "goimports",
+    "go.goroot": "/root/go",
+    "go.gopath": "/root/workspace/gopath",
+    "files.autoSave": "afterDelay",
+}
